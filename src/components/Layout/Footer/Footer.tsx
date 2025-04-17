@@ -9,7 +9,7 @@ import { BiChevronDown } from "react-icons/bi";
 const Footer = () => {
   return (
     <div className="px-6 md:px-[40px] mb-[31px] md:mb-[67px]">
-      <div className="border-t border-borderGrey pt-[60px] md:flex md:justify-between">
+      <div className="border-t border-borderGrey pt-[60px] lg:flex lg:justify-between">
         <div
           className="flex items-start gap-3 mb-[56px] py-5 px-4 rounded-lg"
           style={{

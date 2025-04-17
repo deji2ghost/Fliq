@@ -1,12 +1,11 @@
 import React from "react";
-import { FaAddressCard } from "react-icons/fa";
 import { CardProps } from "./Types/card";
 
-const Cards:React.FC<CardProps> = ({header, body}) => {
+const Cards:React.FC<CardProps> = ({header, body, icon: Icon}) => {
   return (
     <div className="flex flex-col gap-[10px] md:w-[416px]">
       <div className="flex items-center gap-[8px]">
-        <FaAddressCard />
+        <Icon className="text-[20px]" />
         <h1 className="text-[20px] md:text-[24px] font-[500]">{header}</h1>
       </div>
       <p className="text-[16px] font-[400] text-[#BDBDBD]">{body}</p>
