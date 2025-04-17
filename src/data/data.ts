@@ -1,3 +1,23 @@
+import Forbes from "../../public/fliq pictures/Forbes.svg"
+import Cnbc from "../../public/fliq pictures/cnbc-1.svg"
+import Bloomberg from "../../public/fliq pictures/Bloomberg.svg"
+import Reuters from "../../public/fliq pictures/reuters-2-1 1.svg"
+import Cnn from "../../public/fliq pictures/cnn-logo 1.svg"
+
+export const NavData = [
+    "Solutions",
+    "Learn",
+    "About"
+]
+
+export const ImageData = [
+    Forbes,
+    Cnbc,
+    Bloomberg,
+    Reuters,
+    Cnn
+]
+
 export const options = [
     {
         header: "Contactless Technology",
