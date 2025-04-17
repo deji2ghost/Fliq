@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import { Button } from "@/components/ui/Button";
 import Image from "next/image";
 import React from "react";
@@ -9,23 +10,30 @@ import bigLogo from "../../public/fliq pictures/Big Logo.svg";
 import card from "../../public/fliq pictures/card.svg";
 import { ImageData, options } from "@/data/data";
 import Cards from "@/components/ui/cards";
+import { BiChevronRight } from "react-icons/bi";
 
 const Homepage = () => {
   return (
-    <div className="mt-[86px] md:mt-[100px] px-[40px] md:px-6">
+    <div className="mt-[86px] md:mt-[100px] md:1px-[40px] px-6">
       <div className="flex flex-col gap-6 mb-[70px] items-center md:w-[896px] md:mx-auto">
         {/* <Image src={blurredmobile} /> */}
         <div className="flex flex-col gap-4 items-center">
           <Button
-            className="text-[14px] font-[400] md:text-[16px]"
+            className="flex justify-between items-center text-[14px] md:hidden font-[400] md:text-[16px]"
             variant="secondary"
           >
-            Introducing Fliq Cards
+            <span>Introducing Fliq Cards</span><BiChevronRight className="w-5 h-5" />
+          </Button>
+          <Button
+            className="hidden items-center text-[14px] md:flex justify-between font-[400] md:text-[16px]"
+            variant="secondary"
+          >
+            <span>Introducing Fliq Mobile banking App</span> <BiChevronRight className="w-5 h-5" />
           </Button>
           <h1 className="text-[40px] text-center font-[400] md:text-[96px]">
             Building the future of banking.
           </h1>
-          <p className="text-center text-[16px] md:text-[24px] font-[400] text-commonGrey">
+          <p className="text-center text-[16px] md:text-[24px] font-[400] md:w-[668px] text-commonGrey">
             Experience the future of banking with RAFT. Were here to empower
             your financial journey
           </p>
@@ -39,7 +47,7 @@ const Homepage = () => {
         <Image src={dextopview} alt="" />
       </div>
       <div className="mb-[90px] md:mb-[178px] flex flex-col gap-[28px] md:gap-[48px]">
-        <h1 className="text-[16px] md:text-[20px] font-[500] text-center">
+        <h1 className="text-[16px] md:text-[20px] font-[500] text-center text-commonGrey">
           Featured and seen in
         </h1>
         <div className="flex items-center justify-center gap-[80px]">
@@ -50,14 +58,14 @@ const Homepage = () => {
           ))}
         </div>
       </div>
-      <div className="mb-[89px] md:mb-[102px] flex flex-col gap-[16px] md:gap-[24px]">
-        <h3 className="text-[16px] font-[500] text-customPurple text-center">
+      <div className="mb-[89px] md:mb-[102px] flex flex-col gap-[16px] md:gap-[24px] md:w-[896px] md:mx-auto">
+        <h3 className="text-[16px] md:text-[18px] font-[500] text-customPurple text-center">
           INTRODUCING
         </h3>
-        <h1 className="text-[36px] font-[400] text-center">
+        <h1 className="text-[36px] md:text-[76px] font-[400] text-center">
           Introducing Fliq's Next-Gen Cards
         </h1>
-        <p className="text-[16px] font-[400] text-commonGrey text-center">
+        <p className="text-[16px] md:text-[20px] font-[400] text-commonGrey text-center md:w-[668px] md:mx-auto">
           Discover Fliq’s latest innovation – our new cards. Elevate your
           banking experience with cutting-edge features, security, and
           unprecedented convenience.

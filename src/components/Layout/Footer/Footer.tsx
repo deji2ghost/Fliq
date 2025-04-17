@@ -8,7 +8,7 @@ import { BiChevronDown } from "react-icons/bi";
 
 const Footer = () => {
   return (
-    <div className="px-6 mb-[31px] md:mb-[67px]">
+    <div className="px-6 md:px-[40px] mb-[31px] md:mb-[67px]">
       <div className="border-t border-borderGrey pt-[60px] md:flex md:justify-between">
         <div
           className="flex items-start gap-3 mb-[56px] py-5 px-4 rounded-lg"
@@ -23,7 +23,7 @@ const Footer = () => {
             <h1 className="font-[400] text-[20px]">
               Hope your test is going well.
             </h1>
-            <div className="flex items-center">
+            <div className="flex items-center gap-3">
               <FaApple />
               <FaGooglePlay />
             </div>
