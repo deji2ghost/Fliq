@@ -18,7 +18,7 @@ const Navbar = () => {
     <div className='flex items-center justify-between py-3 px-6 md:px-[40px] md:py-4 md:border-b-[0.5px] md:border-borderGrey'>
       <div className='flex items-center'>
         <Image src={logo} alt='' />
-        <h1>FLIQ</h1>
+        <h1 className='text-[24px] font-[400]'>FLIQ</h1>
       </div>
       <div className={`${toggle ? "max-h-[500px]" : "max-h-0"} absolute left-0 top-[60px] bg-background w-full overflow-hidden transition-max-height duration-500 ease-in-out md:hidden flex-col`}>
         <div className="flex flex-col md:flex-row items-center text-grey gap-[10px]">
