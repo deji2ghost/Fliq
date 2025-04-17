@@ -7,7 +7,7 @@ import { Button } from '@/components/ui/Button'
 
 const Navbar = () => {
   return (
-    <div className='flex items-center justify-between py-3 px-6 md:px-[40px] md:py-4'>
+    <div className='flex items-center justify-between py-3 px-6 md:px-[40px] md:py-4 md:border-b-[0.5px] md:border-borderGrey'>
       <div className='flex items-center'>
         <Image src={logo} alt='' />
         <h1>FLIQ</h1>

@@ -4,6 +4,7 @@
   --background: #070606;
   --foreground: #FFFFFF;
   --whiteGrey: #DCDCDC;
+  --borderGrey: #3D3D3D;
   --rareGrey: #989898;
   --commonGrey: #BDBDBD;
   --customPurple: #6A5ACD;
@@ -13,6 +14,7 @@
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-whiteGrey: var(--whiteGrey);
+  --color-borderGrey: var(--borderGrey);
   --color-rareGrey: var(--rareGrey);
   --color-commonGrey: var(--commonGrey);
   --color-customPurple: var(--customPurple);
